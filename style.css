@@ -2,7 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-.bg-img-desktop {
-  background-image: url("images/bg-header-desktop.png");
 
+.bg-img-desktop {
+  background-image: url('images/bg-header-desktop.png');
+  height: 363px;
 }
+
+.font-bai{
+  font-family: Bai Jamjuree;
+}
+
