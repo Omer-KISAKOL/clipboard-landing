@@ -2,3 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+.bg-img-desktop {
+  background-image: url("images/bg-header-desktop.png");
+
+}
