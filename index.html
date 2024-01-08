@@ -1,41 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-    <title>Frontend Mentor | Clipboard landing page</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+        <title>Frontend Mentor | Clipboard landing page</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="text-gray-600">
 
-<body class="text-gray-600">
+        <div class="bg-img-desktop bg-no-repeat bg-cover ">
+            <div class="flex justify-center pt-36">
+                <svg width="125" height="125" xmlns="http://www.w3.org/2000/svg">
+                    <g stroke="#26BBA4" stroke-width="10" fill="none" fill-rule="evenodd">
+                        <circle cx="62.5" cy="62.5" r="57.5" />
+                        <path
+                            d="M85.481 85.481c-12.692 12.692-33.27 12.692-45.962 0s-12.692-33.27 0-45.962 33.27-12.692 45.962 0"
+                            stroke-linecap="round" />
+                    </g>
+                </svg>
+            </div>
 
-    <div class="bg-img-desktop bg-no-repeat bg-cover ">
-        <div class="flex justify-center pt-36">
-            <svg width="125" height="125" xmlns="http://www.w3.org/2000/svg">
-                <g stroke="#26BBA4" stroke-width="10" fill="none" fill-rule="evenodd">
-                    <circle cx="62.5" cy="62.5" r="57.5" />
-                    <path
-                        d="M85.481 85.481c-12.692 12.692-33.27 12.692-45.962 0s-12.692-33.27 0-45.962 33.27-12.692 45.962 0"
-                        stroke-linecap="round" />
-                </g>
-            </svg>
+            <div class="grid place-items-center pt-16">
+                <h1 class=" text-5xl font-medium ">A history of everything you copy</h1>
+                <p class=" w-2/4 text-center pt-5"> Clipboard allows you to track and organize everything you copy. Instantly access your
+                    clipboard on all your devices.</p>
+            </div>
+
+            <div class="grid place-items-center grid-cols-2 py-14">
+                <button class="place-self-end rounded-full text-white py-2 px-8 me-1.5 font-bai border-b-4 border-cyan-700" style="background-color: hsl(171, 66%, 44%);" type="button">Download for iOS</button>
+                <button class="place-self-start rounded-full text-white py-2 px-8 ms-1.5 font-bai border-b-4 border-blue-600" style="background-color: hsl(233, 100%, 69%);" type="button">Download for Mac</button>
+            </div>
         </div>
-        <div class="grid place-items-center pt-20">
-            <h1 class=" text-5xl font-medium">A history of everything you copy</h1>
-            <p class=" pt-5"> Clipboard allows you to track and organize everything you copy. Instantly access your
-                clipboard on all your devices.</p>
-        </div>
-    </div>
 
 
 
-
-
-
-
-</body>
+    </body>
 
 </html>

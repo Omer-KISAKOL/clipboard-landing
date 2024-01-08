@@ -8,7 +8,9 @@
   height: 363px;
 }
 
-.font-bai{
+p, .font-bai{
   font-family: Bai Jamjuree;
+  font-size: 22px;
+  color: hsl(201, 11%, 66%);
 }
 
