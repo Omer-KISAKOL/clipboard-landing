@@ -10,7 +10,9 @@
 
 p, .font-bai{
   font-family: Bai Jamjuree;
-  font-size: 22px;
+  font-size: 20px;
   color: hsl(201, 11%, 66%);
 }
-
+.font_size{
+  font-size: 18px;
+}
