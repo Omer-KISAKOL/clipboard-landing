@@ -8,6 +8,11 @@
   height: 363px;
 }
 
+.bg-img-mobil {
+  background-image: url('images/bg-header-mobile.png');
+  height: 363px;
+}
+
 p, .font-bai{
   font-family: Bai Jamjuree;
   font-size: 20px;
@@ -15,4 +20,11 @@ p, .font-bai{
 }
 .font_size{
   font-size: 18px;
+}
+
+.col_cyan:hover{
+  color:  hsl(171, 66%, 44%);
+}
+.bg_cyan:hover{
+  fill:  hsl(171, 66%, 44%);
 }
